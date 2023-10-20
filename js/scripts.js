@@ -48,14 +48,19 @@ function yourLanguage(event) {
     }
     
     let yourLanguage;
+    let languageDescription;
     if (runningCount >= 2) {
       yourLanguage = "C#"
+      languageDescription = "C# is a general-purpose high-level programming language supporting multiple paradigms. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines."
     } else if (runningCount <= -2) {
       yourLanguage = "Swift"
+      languageDescription = "Swift is a high-level general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community. Swift compiles to machine code, as it is an LLVM-based compiler."
     } else {
       yourLanguage = "Javascript"
+      languageDescription = "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries."
     }
-
+  
+  document.getElementById("languageDescription").innerText = languageDescription;
   document.getElementById("yourLanguage").innerText = yourLanguage;
   document.getElementById("display").classList.remove("hidden");
 }
