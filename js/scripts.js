@@ -50,19 +50,10 @@ function yourLanguage(event) {
     let yourLanguage;
     if (runningCount >= 2) {
       yourLanguage = "C#"
-      document.getElementById("C#").classList.remove("class", "hidden")
-      document.getElementById("Swift").setAttribute("class", "hidden")
-      document.getElementById("JavaScript").setAttribute("class", "hidden")
     } else if (runningCount <= -2) {
       yourLanguage = "Swift"
-      document.getElementById("Swift").classList.remove("class", "hidden")
-      document.getElementById("C#").setAttribute("class", "hidden")
-      document.getElementById("JavaScript").setAttribute("class", "hidden")
     } else {
       yourLanguage = "Javascript"
-      document.getElementById("JavaScript").classList.remove("class", "hidden")
-      document.getElementById("Swift").setAttribute("class", "hidden")
-      document.getElementById("C#").setAttribute("class", "hidden")
     }
 
   document.getElementById("yourLanguage").innerText = yourLanguage;

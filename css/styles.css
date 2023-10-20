@@ -42,8 +42,8 @@ h3 {
   text-decoration-color: rgb(109, 106, 106);
   text-decoration-thickness: 5px;
 }
- p {
+ h4 {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 60px;
+  font-size: 40px;
  }
