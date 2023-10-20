@@ -12,8 +12,9 @@
 
 <body>
   <div class="container cont-height">
-    <button id="reset-btn" class="btn btn-danger">Reset</button>
+    <button id="reset-btn" class="btn">Reset</button>
     <button id="darkMode-btn" class="btn btn-dark">Dark Mode</button>
+    <button id="lightMode-btn" class="btn btn-light">Light Mode</button>
     <h1 class="title">Which programming language suits you?</h1>
   </div>
   <div class="container cont-height">
@@ -21,9 +22,9 @@
     <div class="row">
       <div id="form-box" class="col">
         <form>
-          <h2 class="sub-title">Please fill out the form:</h2>
+          <h2 id="sub-title1" class="sub-title">Please fill out the form:</h2>
           <hr>
-          <h3>Question 1:<br>
+          <h3 class="question-title">Question 1:<br>
             <h5>Are there more wheels or doors in the world?</h5>
           </h3>
           <label for="q1-answer1">More wheels (Objectively True):
@@ -38,7 +39,7 @@
             <input id="q1-answer3" type="radio" value="3" name="question1">
           </label>
           <br><br>
-          <h3>Question 2:<br>
+          <h3 class="question-title">Question 2:<br>
             <h5> Is a hotdog a sandwich?</h5>
           </h3>
           <label for="q2-answer1">Hotdog is a sandwich:
@@ -53,7 +54,7 @@
             <input id="q2-answer3" type="radio" value="3" name="question2">
           </label>
           <br><br>
-          <h3>Question 3:<br>
+          <h3 class="question-title">Question 3:<br>
             <h5>Which Dark Souls game is better?<h5>
           </h3>
           <label for="q3-answer1">Dark Souls 1:
@@ -68,7 +69,7 @@
             <input id="q3-answer3" type="radio" value="3" name="question3">
           </label>
           <br><br>
-          <h3>Question 4:<br>
+          <h3 class="question-title">Question 4:<br>
             <h5> Elden Ring or Bloodborne?</h5>
           </h3>
           <label for="q4-answer1">Elden Ring:
@@ -83,7 +84,7 @@
             <input id="q4-answer3" type="radio" value="3" name="question4">
           </label>
           <br><br>
-          <h3>Question 5:<br>
+          <h3 class="question-title">Question 5:<br>
             <h5>Great Emu War or RCGS Resolute vs. the Venezuelan Navy?</h5>
           </h3>
           <label for="q5-answer1">Great Emu War:
@@ -102,7 +103,7 @@
         </form>
       </div>
       <div id="display" class="col hide-display">
-        <h2 class="sub-title">Your Programming Language is:</h2>
+        <h2 id="sub-title2" class="sub-title">Your Programming Language is:</h2>
         <hr>
         <h4 class="yourLanguage" id="yourLanguage"></h4>
         <hr>
@@ -115,10 +116,3 @@
 </body>
 
 </html>
-
-
-<!-- <div id="img-display">
-  <img id="C#" class="hidden img" src="img/c.png">
-  <img id="Swift" class="hidden img" src="img/swift.jpg">
-  <img id="JavaScript" class="hidden img" src="img/javascript.png">
-</div> -->

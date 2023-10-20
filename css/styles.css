@@ -7,7 +7,7 @@
 }
 
 #reset-btn {
-  background-color: rgb(139, 46, 46);
+  background-color: #852C15;
   color: white;
   font-size: 17px;
   margin-top: 1%;
@@ -20,11 +20,20 @@
   float: right;
 }
 
+#lightMode-btn {
+  font-size: 17px;
+  margin-top: 1%;
+  float: right;
+  display: none;
+}
+
+
 #img {
   display: block;
   margin: auto;
   width: 50%;
-  border: double black 3px;
+  border: double 3px;
+  border-color: black;
 }
 
 
@@ -78,17 +87,25 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: #852C15;
   text-decoration-thickness: 8px;
   text-align: center;
 }
 
 
-h3 {
+.question-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   text-decoration: underline;
-  text-decoration-color: rgb(109, 106, 106);
+  text-decoration-color: #852C15;
+  text-decoration-thickness: 5px;
+}
+
+.question-title-dark {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #8948E9;
   text-decoration-thickness: 5px;
 }
  h4 {
