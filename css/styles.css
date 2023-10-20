@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+
+#display {
+  float: right;
+  text-align: right;
+  border: 2px double;
+}
+
+#form-box {
+  border: 2px double;
+  width: 50%;
+}
