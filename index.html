@@ -11,13 +11,14 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="h1">Which programming language suits you?</h1>
+  <div class="container cont-height">
+    <h1 class="title">Which programming language suits you?</h1>
     <hr>
-    <h2>Please fill out the form:</h2>
     <div class="row">
       <div id="form-box" class="col-4">
         <form>
+          <h2 class="title">Please fill out the form:</h2>
+          <hr>
           <h3>Question 1:</h3>
           <label for="q1-answer1">x
             <input id="q1-answer1" type="radio" value="1" name="question1" checked>
@@ -86,9 +87,15 @@
           <button type="submit">Submit</button>
         </form>
       </div>
-      <div id="display" class="col hidden">
-        <h1>Your Programming Language is:</h1>
-        <p id="yourLanguage"></p>
+      <div id="display" class="col hidden display">
+        <h2 class="title">Your Programming Language is:</h2>
+        <hr>
+        <div id="img-display">
+          <img id="C#" class="hidden img" src="img/c.png">
+          <img id="Swift" class="hidden img" src="img/swift.jpg">
+          <img id="JavaScript" class="hidden img" src="img/javascript.png">
+        </div>
+        <p class="yourLanguage" id="yourLanguage"></p>
       </div>
     </div>
   </div>

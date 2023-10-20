@@ -6,13 +6,44 @@
   float: right;
   text-align: right;
   border: 2px double;
+  margin-left: 1%;
 }
 
 #form-box {
   border: 2px double;
   width: 50%;
+  margin-right: 1%;
 }
 
-h1 {
+.img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.display {
+  height: 20%;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 8px;
   text-align: center;
 }
+
+
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: rgb(109, 106, 106);
+  text-decoration-thickness: 5px;
+}
+ p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+ }
