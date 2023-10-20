@@ -20,6 +20,10 @@ _Uses a form to gather input based on user's answers.  Uses branching to determi
 * _Clone repository from Github_
 * _Open index.html in a browser_
 
+## Github Pages Link
+
+* _https://taj-em.github.io/code-review2/_
+
 ## Known Bugs
 
 * _N/A_
