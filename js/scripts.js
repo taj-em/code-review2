@@ -76,6 +76,11 @@ function yourLanguage(event) {
     document.querySelector("body").style.backgroundColor = "black";
     document.querySelector("body").style.color = "white";
     document.getElementById("img").style.borderColor = "white";
+    document.getElementById("q1-title").style.textDecorationColor = "#8948E9";
+    document.getElementById("q2-title").style.textDecorationColor = "#8948E9";
+    document.getElementById("q3-title").style.textDecorationColor = "#8948E9";
+    document.getElementById("q4-title").style.textDecorationColor = "#8948E9";
+    document.getElementById("q5-title").style.textDecorationColor = "#8948E9";
     document.getElementById("sub-title1").style.textDecorationColor = "#8948E9";
     document.getElementById("sub-title2").style.textDecorationColor = "#8948E9";
     document.getElementById("reset-btn").style.backgroundColor = "#8948E9";
@@ -87,6 +92,11 @@ function yourLanguage(event) {
     document.querySelector("body").style.backgroundColor = "white";
     document.querySelector("body").style.color = "black";
     document.getElementById("img").style.borderColor = "black";
+    document.getElementById("q1-title").style.textDecorationColor = "#852C15";
+    document.getElementById("q2-title").style.textDecorationColor = "#852C15";
+    document.getElementById("q3-title").style.textDecorationColor = "#852C15";
+    document.getElementById("q4-title").style.textDecorationColor = "#852C15";
+    document.getElementById("q5-title").style.textDecorationColor = "#852C15";
     document.getElementById("sub-title1").style.textDecorationColor = "#852C15";
     document.getElementById("sub-title2").style.textDecorationColor = "#852C15";
     document.getElementById("reset-btn").style.backgroundColor = "#852C15";
