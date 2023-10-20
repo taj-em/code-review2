@@ -6,6 +6,8 @@
   display: none;
 }
 
+
+
 #reset-btn {
   background-color: #852C15;
   color: white;
@@ -28,6 +30,42 @@
 }
 
 
+
+#form {
+  border: 2px double;
+  width: 50%;
+  margin-right: 1%;
+}
+
+.submit {
+  margin-top: -2%;
+  margin-bottom: 2%
+}
+
+
+
+#display {
+  height: 20%;
+  padding: 0;
+  float: right;
+  text-align: right;
+  border: 2px double;
+  margin-left: 1%;
+}
+
+.yourLanguage {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+
+.languageDescription {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
 #img {
   display: block;
   margin: auto;
@@ -37,46 +75,6 @@
 }
 
 
-#display {
-  float: right;
-  text-align: right;
-  border: 2px double;
-  margin-left: 1%;
-}
-
-#form-box {
-  border: 2px double;
-  width: 50%;
-  margin-right: 1%;
-}
-
-#C {
-  display: block;
-  margin: auto;
-  width: 60%;
-}
-
-#JavaScript {
-  display: block;
-  margin: auto;
-  width: 60%;
-}
-
-#Swift {
-  display: block;
-  margin: auto;
-  width: 60%;
-}
-
-.submit {
-  margin-top: -2%; 
-  margin-bottom: 2%
-}
-
-#display {
-  height: 20%;
-  padding: 0;
-}
 
 .title {
   font-weight: 100;
@@ -92,7 +90,6 @@
   text-align: center;
 }
 
-
 .question-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
@@ -100,27 +97,3 @@
   text-decoration-color: #852C15;
   text-decoration-thickness: 5px;
 }
-
-.question-title-dark {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
-  text-decoration: underline;
-  text-decoration-color: #8948E9;
-  text-decoration-thickness: 5px;
-}
- h4 {
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
- }
-
- .languageDescription {
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: 100;
- }
-
- #img-display {
-  display: none;
- }
