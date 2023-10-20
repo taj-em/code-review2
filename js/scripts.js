@@ -1,10 +1,10 @@
 function yourLanguage(event) {
   event.preventDefault();
   const answer1 = parseInt(document.querySelector("input[name='question1']:checked").value);
-  const answer2 = parseInt(document.querySelector("input[name='question1']:checked").value);
-  const answer3 = parseInt(document.querySelector("input[name='question1']:checked").value);
-  const answer4 = parseInt(document.querySelector("input[name='question1']:checked").value);
-  const answer5 = parseInt(document.querySelector("input[name='question1']:checked").value);
+  const answer2 = parseInt(document.querySelector("input[name='question2']:checked").value);
+  const answer3 = parseInt(document.querySelector("input[name='question3']:checked").value);
+  const answer4 = parseInt(document.querySelector("input[name='question4']:checked").value);
+  const answer5 = parseInt(document.querySelector("input[name='question5']:checked").value);
 
   let runningCount = 0;
     if (answer1 == 1) {
@@ -56,19 +56,8 @@ function yourLanguage(event) {
       yourLanguage = "Javascript"
     }
 
-
-
-
-  // if (answer1 == 1 && answer2 == 1 && answer3 == 1) {
-  //   yourLanguage = "Swift - Apple"
-  // } else if (answer1 == 2 && answer2 == 2 && answer3 == 2) {
-  //   yourLanguage = "Javascript"
-  // } else if (answer1 == 3 && answer2 == 3 && answer3 == 3) {
-  //   yourLanguage = "C#"
-  // }
-
   document.getElementById("yourLanguage").innerText = yourLanguage;
-  document.getElementById("display").removeAttribute("class");
+  document.getElementById("display").classList.remove("hidden");
 }
 
 window.addEventListener("load", function () {
