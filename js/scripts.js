@@ -68,7 +68,17 @@ function yourLanguage(event) {
   document.getElementById("display").classList.remove("hide-display");
 }
 
+  function reset(event) {
+    location.reload();
+  }
+  
+  function darkMode(event) {
+
+  }
+
 window.addEventListener("load", function () {
   let form = document.querySelector("form");
+  document.getElementById("reset-btn").addEventListener("click", reset)
+  document.getElementById("darkMode-btn").addEventListener("click", darkMode)
   form.addEventListener("submit", yourLanguage)
 });

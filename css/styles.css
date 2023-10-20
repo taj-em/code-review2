@@ -6,6 +6,27 @@
   display: none;
 }
 
+#reset-btn {
+  background-color: rgb(139, 46, 46);
+  color: white;
+  font-size: 17px;
+  margin-top: 1%;
+  float: left;
+}
+
+#darkMode-btn {
+  font-size: 17px;
+  margin-top: 1%;
+  float: right;
+}
+
+#img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: double black 3px;
+}
+
 
 #display {
   float: right;
@@ -38,11 +59,22 @@
   width: 60%;
 }
 
-.display {
+.submit {
+  margin-top: -2%; 
+  margin-bottom: 2%
+}
+
+#display {
   height: 20%;
+  padding: 0;
 }
 
 .title {
+  font-weight: 100;
+  text-align: center;
+}
+
+.sub-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   text-decoration: underline;
