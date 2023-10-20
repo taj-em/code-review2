@@ -1,6 +1,11 @@
-.hidden {
+.hide-display {
   display: none;
 }
+
+.hide-img {
+  display: none;
+}
+
 
 #display {
   float: right;
@@ -15,7 +20,19 @@
   margin-right: 1%;
 }
 
-.img {
+#C {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#JavaScript {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#Swift {
   display: block;
   margin: auto;
   width: 60%;
@@ -53,4 +70,8 @@ h3 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
   font-weight: 100;
+ }
+
+ #img-display {
+  display: none;
  }
